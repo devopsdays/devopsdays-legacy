@@ -1,0 +1,960 @@
+"votes","type","url","author","title","description","voter1"
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/tim-nolet__microservices-i-dont-always-test-but-when-i-do/","Tim Nolet","microservices: I don't always test, but when I do I do it in production","Abstract:
+
+Testing (micro)service based architectures is hard. Mocking/stubbing is an option, but the sheer difficulty of replicating datasets, traffic patterns, async response cycles and mocking other infrastructure make concerns multiply quite rapidly and logarithmically.
+
+To combat this, there are release patterns like blue/green deployments, canary releases and A/B-testing to test whether our services are up to scratch and production worthy. Essentially, this means we are testing in production: one of the last taboos in the world! For companies like Netflix, Facebook but also Booking.com this an essential part of their online success and flows directly from their DevOps strategy.
+
+This talk lays out the problem space and then focusses on the practicalities of such tests and how they work in a microservices and/or containerized world. Questions like what tech do you need and what steps you would take to get successful results are the core part.
+
+Part of the talk will show our open source product VAMP (the Very Awesome Microservices Platform) tackles this problem. This talk is however not a product pitch and puts forward enough info and tips to take home regardless of implementation, language or specific infrastructure solution.
+
+Speaker:
+
+Tim Nolet is CTO and co-founder of Magnetic.io and has a 15 year background in online services and enterprise IT. Magnetic.io is currently gearing up for the open source launch of their product VAMP, also known as the Very Awesome Microservices Platform.
+
+Tim is currently on a mission to reap all the benefits of the DevOps movement and loves playing around with  containers, Reactive Programming, streaming data and A/B testing.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/nir-cohen__why-cant-i-nail-that-devops-interview/","Nir Cohen","Why Can't I Nail that "DevOps" Interview?","Abstract:
+
+I'm far from being an HR specialist; Even so, I've interviewed approximately 30 people for an Ops Lead role and couldn't find even one to stand up to my requirements. I've also heard of many (many) bad questions and wrong decisions made by interviewers because of which they didn't get the right person for the job. I would like to present the problem of why, in my opinion, it is hard to find that right person; why interviewers should stop looking for 'DevOps' and start looking for 'Good, Technical People' and why, after all, 30 people didn't suffice. (Presented at DevOpsDays TLV 2014)
+
+Speaker:
+
+Nir Cohen &ndash; is an architect at GigaSpaces working on Cloudify and a co-organizer of DevOpsDays Tel Aviv. Nir is a relatively short, brown eyed human being, loves animals and holds true to ethics as a life path. He likes to think, walk long distances, breathe and eat lettuce.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/steve-pereira__what-happens-without-traction/","Steve Pereira","What Happens Without Traction?","Abstract:
+
+'What if you're not the CTO and you want to improve your quality, performance and stability?
+This is my story of working within low buy-in, legacy, siloed organizations to break down barriers, blur borders and eliminate constraints. I&rsquo;ll also tie in material from &lsquo;Driving Technical Change&rsquo; and &lsquo;Building a DevOps Culture&rsquo;
+
+We&rsquo;ll cover:
+- tribes and guilds vs silos and departments
+- easy wins
+- low impact tools
+- talking the talk and walking the walk
+- trust and building confidence
+
+What you get:
+Clear guidance on navigating a corporate nightmare to make progress with DevOps'
+
+Speaker:
+
+'Steve is a software delivery specialist in Toronto, previously consulting large and small companies, recently joining a tiny startup called Statflo as CTO. He runs Toronto's monthly DevOps and OpenStack meetups and DevOps Days Toronto. Steve is unreasonably fond of beer, throwing frisbees and a giant fan of all things software.
+
+Speaker: Chicago, Belgium, Paris, Denver
+
+http://devopschecklist.com'
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/mandi-walls__what-can-delivery-truck-do-for-you/","Mandi Walls","What Can Delivery Truck Do For You","Abstract:
+Chef debuted Delivery, a new continuous delivery and deployment pipeline tool, at ChefConf 2015. The full product won't be generally available for a while, but we have open sourced a couple of components that we think might be interesting for teams building pipelines.
+
+This talk will walk through the Delivery Truck cookbook and the Delivery CLI, both available as open source projects from Chef, and how these components can be utilized with other tools, some of our thoughts on bringing CI/CD pipelines to DevOps teams, and the behaviors we've found that lead to pipeline happiness.
+
+Speaker:
+
+Mandi Walls heads up Chef's new London-based professional services and customer success functions for EMEA. She joined Chef in late 2011 as a Technical Evangelist and roaming sysadmin for hire. She's written about DevOps for O'Reilly and regularly presents on DevOps, Chef, and related topics.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/pini-reznik__using-docker_software-containers-for-automated-testing/","Pini Reznik","Using Docker/Software Containers for automated testing","Abstract:
+
+What is Docker and containers in general? Why they are so popular? How they differ from Virtual Machine?
+
+I&rsquo;ll try to answer these and other related questions during my talk.
+
+But the main focus of the talk will be on software testing and the improvements Docker can bring in this area.
+
+To give you an idea I&rsquo;ll ask you few questions about software testing:
+
+
+How to set up consistent testing environments?
+How we can deploy the software quickly and consistently?
+How we execute tests in parallel?
+What are the easiest ways to reproduce found issues?
+How do we test infrastructure including large-scale deployments, elastic scaling and other advanced capabilities?
+How do we test microservices?
+
+
+
+At the the talk I'll try to give some answers about the way Docker can help you addressing these challenges.
+
+Speaker:
+
+Pini has 15+ years of experience in delivering software in Israel and Netherlands.
+
+Starting as a developer and moving through technical, managerial and consulting positions in Configuration Management and Operations areas, Pini acquired deep understanding of the software delivery processes and currently helping organisations around Europe with improving software delivery pipeline by introducing Docker and other cutting edge technologies.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/anirban-saha__understanding_orchestration_in_devops/","Anirban Saha","Understanding Orchestration in DevOps","Abstract:
+
+With the availability of multiple and efficient infrastructure management tools and solutions, the term Orchestration does not just define a procedure anymore.
+
+In present days, Orchestration has a much wider definition starting from command blasting to ordered configuration deployment and many more. Different product vendors have defined Orchestration in their own ways and same is the case with users.
+
+In this talk, we will go through an overview about Orchestration from a user, as well as a vendor perspective. The talk will include understanding of the term Orchestration in a wider scenario, each of the procedures or workflows which are defined by the term, a couple of examples about orchestration using tools such as Ansible and Salt.
+
+Speaker:
+
+DevOps Engineer with experience in large scale infrastructure management, private cloud deployments, automating infrastructure and application workflows. Speaker at conferences and meetups and interested in anything about technology.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/andreas-grabner__top-quality-metrics-that-allow-you-to-deploy-faster/","Andreas Grabner","Top Quality Metrics that allow you to Deploy Faster without Failing Fasterps"","Abstract:
+
+Your ultimate goal is to bring new features faster to our end users. Yet &ndash; based on a recent study - you spend 80% of developer time in bugfixing resulting in $60B annual costs in 2014 alone. That means you only have 20% of engineering time for new innovative development.
+In my opinion the reason for this disaster is the lack of automated quality control throughout the delivery pipeline. The good news is that most of the software and deployment problems can be detected early in an test automation. Why? Because ~ 80% of issues are only caused by about 20% of problem patterns, e.g: overloaded web pages, bad database access patterns, memory leaks, bad coding of algorithms or deployment configuration mistakes.
+If you want to reduce lead time to bring the new cool features faster to your paying users you need to make sure you are not failing faster and then spending all our engineering power to fix these issues. In my talk I discuss 3 real life use cases of large applications that failed after a deployment, why they failed (technically deep dive) and which key software metrics these companies now look at in their delivery pipeline to stop bad code early on.
+
+Speaker:
+
+Andreas has been working in software quality for the past 15 years helping companies from small startup to large enterprise figuring out why their current application falls short on quality and how to prevent quality issues for future development.
+He is a regular speaker at international conferences, meetups &amp; user groups. He has done DevOps Boston, Velocity Santa Clara, Agile Testing Days, Star West or STPCon in the recent years.
+Besides being excited about software quality he is also an enthusiastic salsa dancer
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/ernesto-antonio-terreblanca-lopez__the-future-of-testing-how-testers-improves-their-activities-with-devops/","Ernesto Antonio Torreblanca Lopez","The future of testing how testers improves their activities with DevOps","Abstract:
+
+Test early, test continuously and deliver quality, this is the main idea of Testing in DevOps.
+In the actual market, IT companies have to rapidly turn business ideas into high-quality software solutions. Here is where DevOps appears to help during all the project phases to accomplish this. For Testers, the approach that DevOps suggest is Continuous Testing. Continuous Testing helps DevOps teams balance quality and speed, It uses automation, the cloud and service virtualization to eliminate testing bottlenecks and simplifies the creation of test environments that can be more easily deployed, shared and updated as systems change.
+
+Speaker:
+
+Ernesto Torreblanca is an IT Specialist in IBM M&eacute;xico. Ernesto has been involved in different activities for the Software Development Process, specifically in Test phases, having roles as Test Specialist, Test Leader, and more recently as Mobile Test Leader for Global Delivery Center Mexico.
+
+He holds the Mobile Test Lead role on the Mobile Center of Competence of IBM Mexico and currently he is currently supporting new business deals with clients related to the Mobile Testing field.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/tony-chapman__the-elephant-in-the-room---how-do-i-actually-attract-build-and-retain-my-devops-team/","Tony Chapman","The elephant in the room - how do I actually attract, build and retain my DevOps team?","Abstract:
+
+You&rsquo;ve defined the strategy, you&rsquo;ve changed the mindset and you&rsquo;re ready to implement DevOps practices. Now, where do I find these superstars, how do I convince them to join the journey and how do I retain their services?
+
+One of the most difficult areas in the implementation of DevOps practices is finding exceptional people with the relevant skills who can put the strategy created into practice.
+
+Huge amounts of organisations demand DevOps related skills, but there is a significant shortage, how do we set ourselves aside from the rest? Demand far exceeds supply, we need to ensure we are different.
+
+Speaker:
+
+Tony Chapman has founded and built specialist DevOps agency LinuxRecruit who are working with organisations across the UK, building their DevOps strategy and fully staffing their DevOps teams.
+
+Tony was recently shortlisted for Recruiter of the Year 2012 at the prestigious national Recruiter for Excellence Awards and LinuxRecruit were shortlisted for newcomer agency of the year at the 2013 awards.
+
+He is a key contributor to the Open Source community, has a regular column in Linux Format Magazine and is organiser of the worlds biggest monthly DevOps meetup, the DevOps Exchange in London.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/michael-cote__the-donkeys-are-coming/","Michael Coté","The donkeys are coming!","Abstract:
+
+DevOps is growing in popularity and even usage in 'the real world.' It seems like we're slowly getting past unicorns only and seeing many 'horses' do DevOps. Soon we'll see the mainstream market - the 'donkeys' - start to pick it up and bend DevOps to its will.
+
+This talk will go over 'the state of the union' of DevOps and provide some guidance for how to prepare for the donkey apocalypse.
+
+Speaker:
+
+I'm a sometimes industry analyst (having worked at RedMonk and 451 Research), corporate strategist (Dell), and former programmer.
+
+Now I work at Pivotal in technical marketing for Pivotal Cloud Foundry. Cloud!
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/steve-pereira__the-golden-pipeline/","Steve Pereira","The Golden Pipeline","Abstract:
+
+A guided tour of a modern continuous delivery process, along with the benefits and challenges it presents.
+I&rsquo;m a visual person, when I started out with build and release engineering and agile, charged with reducing cycle time I wanted a holistic view of the current system and a path to tackling the issues. I've since learned much more about the practice of value stream mapping and how it can help tune your delivery process. This is my story of working to create pipelines for consistent and high quality software delivery systems.
+
+We&rsquo;ll cover:
+- value stream mapping 0-60
+- identifying and addressing constraints
+- building quality in
+- connections, tools and integrations
+
+Speaker:
+
+Steve is a software delivery specialist in Toronto, previously consulting large and small companies, recently joining a tiny startup called Statflo as CTO. He runs Toronto's monthly DevOps and OpenStack meetups and DevOps Days Toronto. Steve is unreasonably fond of beer, throwing frisbees and a giant fan of all things software.
+
+Speaker: Chicago, Belgium, Paris, Denver
+
+http://devopschecklist.com
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/mike-fulton__test-optimization-whats-changed/","Mike Fulton","Test Optimization: What's changed?","Abstract:
+
+As a developer, are you testing the code you changed? Are you sure?
+As a tester, do you focus on what the developer just broke?
+As a project lead, do you know what your test exposure is?
+Does your build process update your code coverage?
+Do you spend more time testing than you should?
+
+Think about testing a different way. Come hear about test optimization.
+We will walk through day-to-day scenarios for developers, testers, the build team and project managers and how they can do their job better through a deeper understanding of how their application is tested.
+
+Speaker:
+
+Mike lives in the community of Brackendale, British Columbia. Brackendale sites between Whister ski adventures and Vancouver big lights.
+
+Mike works for IBM as CTO for Enterprise DevOps, and spends much of his time talking to clients about the DevOps process and practical ways to get started with agile development.
+
+For more than 25 years, Mike has focused on creating development tools to make developers lives easier. Mike's depth is in compilers, language runtimes, debuggers, profilers and development environments for z/OS.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/jan-joost-bouwman__state-of-devops-ing-does-devops-make-your-team-more-sucessful/","Jan-Joost Bouwman","State of DevOps @ ING: does DevOps make your team more sucessful?","Abstract:
+
+ING is a dutch based financial institution. ING IT has always been considered a leading edge innovator in the Netherlands, being the first to introduce ATMs, internet banking etc. But our growth increased our bureaucracy, making the lead time to market longer and longer in a time when market conditions demanded shorter lead times.
+
+After adopting Agile/Scrum as our development methodology we needed to make the transition to full DevOps cooperation to complete the feedback circle. And let development and operations take joint responsibility for production, together with the business.
+
+Two years ago we embarked on this journey, transforming our entire IT department into small self organising DevOps teams with a lot of autonomy towards tooling. And with the goal of Continuous Delivery on the horizon.
+
+How far have we come so far in our strive towards Continuous Delivery? And has it payed off? We see numerous highlights, but are they indicative for the whole organisation? And how do people feel about the transition?
+
+In a first ever &lsquo;State of DevOps @ING&rsquo; survey (inspired by the State of DevOps survey 2014) among the staff I investigated these questions. This talk will focus on some of the results, combining them with other sources like the number of incidents or failed changes:
+ - does the staff understand the transition and agree with it?
+ - do we like working in DevOps teams?
+ - how far are we really on our path towards Continuous Delivery?
+ - are teams that are closer to reach Continuous Delivery Nirwana also more succesful?
+
+Speaker:
+
+Jan-Joost stumbled into IT almost 20 years ago, starting on a temp job for 5 days that lasted 7 years. During those years he has been mostly on the functional/process side of things, having worked as tester, designer, information analyst, project manager, application manager, change manager and currently as process owner the ITIL change management process at ING.
+
+He is also the self appointed DevOps evangelist and community leader there, trying to help his co-workers to make the transition to DevOps and Continuous Delivery and have fun with it at the same time!
+
+In his spare time he enjoys travelling the world to watch birds, or cooking, but rarely at the same time.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/dusan-dordevic__starting-small-with-devops-and-making-it-work/","Dušan Đorđević","Starting small with Devops and making it work","Abstract:
+
+When I joined aerlingus.com as a consultant, I was first member of team that was tasked to migrate aerlingus.com to Amazon cloud. AerLingus is Irish national air carrier, ex-government owned, now public company. Around 75% of company sales go through that site, which is around 1.2 B EUR/year. Current site relies on bunch of legacy technologies (Solaris, IBM mainframe, etc...). There was 0 lines of documentation about anything and there was no drive nor understanding from management to do devops. Still in a year time we managed to establish some devops procedures. Main things that I would like to illustrate in this talk is
+-Enterprises are not complex and unique, but alike
+
+-It is possible to do enterprise devops, side by side with ITIL
+-It is possible to sell devops to organization from within, simply because it works
+-It is possible to connect legacy and new, we have direct connectivity between mainframe and Amazon cloud
+-Illustrate how we are using Kanban as main methodology for collaboration between teams and how we convinced organization to use it
+
+I would also like to illustrate key mistakes we made:
+-To some extent you can sell devops to organization from within, but to really do it you need to have organizational drive
+-Silos still continued to exist
+
+I would still need to get confirmation from AerLingus if I may use name in presentation, otherwise it can be presented as Irish Airline company
+
+Speaker:
+
+Experienced in designing and running telecom and gambling/gaming systems, large web sites (cloud and data center based), various HA systems with 99.999% availability, infrastructure and cloud operations, managing and influencing teams. Devops practitioner.
+
+Worldwide multicultural experience with various types of clients and contacts up to C level.
+
+Specialties: Infrastructure and platform architecture. High availability and disaster recovery. Automation. Cloud computing. Devops/Agile/Kanban. Linux and open source. OpenStack.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/james-brooks__show-me-the-metrics-opentsdb-and-opentsp-at-betfair/","James Brooks","Show me the Metrics: OpenTSDB and OpenTSP at Betfair","Abstract:
+
+'Time Series metrics can be an important part of a comprehensive monitoring solution. Betfair will present a talk on their experiences running OpenTSDB and a new open source tool called OpenTSP, designed to streamline the process of gathering and delivering system metrics quickly and reliably to multiple endpoints so that you can use any of your favourite tools to analyse the stream.
+
+Speaker:
+
+James Brooks is a Senior Engineer with Betfair's site reliability engineering team. Having spent time at Sun Microsystems and Interoute Communications, James is keenly aware of the power of well-implemented monitoring to be a driver for continuous improvement.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/mark-heistek-taco-bakker__scaling-continuous-delivery-to-a-next-level-at-enterprise/","Mark Heistek and Taco Bakker","Scaling Continuous Delivery to a next level at the enterprise.","Abstract:
+
+Our journey started five years ago by implementing Scrum in order to develop our ING mobile app. A year later we started with full automation of IT processes. In May 2013 ING reorganized with Continuous Delivery as the way of working and DevOps the way we organize. All this in an enterprise organization which is bound by national legislation &amp; historical legacy.
+
+Many practices within the market helped us in this journey, but little was discussed and known about scaling Continuous Delivery and increasing the quality of operations within the enterprise. This talk shares experiences and key learnings of implementing Continuous Delivery at scale and integrating operations.
+
+We will cover;
+* Individual teams with their own pipelines towards Continuous Delivery as a service (CDaaS) within the enterprise
+* Standardization of tooling
+* Embedding operations within Continuous Delivery (like monitoring, Config management etc.)
+* Security and DevOps
+* Security and Continuous Delivery
+
+Speaker:
+
+Taco is a IT engineer with a lot of continuous delivery, Agile/Scrum and DevOps experience. Improving people, processes and techniques is what he constantly does. In the end it's the results that matter!
+
+Mark Heistek works at ING. Evangelizing Continuous Delivery and DevOps within and outside ING . Also part of the DevOps team which is responsable for Continuous Delivery as a Service globally within the enterprise.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/jarl-meijer__safer/","Jarl Meijer","SAFER!","Abstract:
+
+Agile teams have become mainstream. Many managers consider setting the next step and scaling Agile in their organization. Scrum and Kanban are considered to be for team level Agile. Frameworks like the popular Scaled Agile Framework (SAFe), the Spotify model and &ndash;recently- Large Scale Scrum (LESS) provide solutions for implementing Agile at Scale. SAFe and LESS both are based on Scrum and try to apply Scrum and its values to a team of teams. Obviously the founders of Scrum, Jeff Sutherland and Ken Schwaber, are also basing their scaling models on Scrum.
+
+The Spotify-model is the exception, because it let Scrum go. Nevertheless all these models share a common foundation and partly even a common solution, when looking from a process point of view. These similarities makes that you can use them all as a source of inspiration for your scaling challenges. However, these models differ in their approach towards change and on their interpretation of Agility. And these differences makes that one model will suit your organization better than another. This talk will give you a brief introduction into these 3 models, their common grounds and their main differences. You will learn what model will be the most appropriate one for you to start studying, and you will learn an important lesson. It is all about Scaling Agile For Enterprises Right.
+
+Speaker:
+
+Jarl Meijer is an experienced Agile coach-trainer-consultant. Educated in Business Computer Science and Psychology, he started his career as an entrepreneur, developing medical diagnostic tools. From the mid '90-ties he is an IT-consultant who made his mark in quality- and project/program-management.
+
+In 2008 he moved to Xebia, the leading Agile consultancy company in the Netherlands. In his assignments he helpes organizations to transform in an Agile organization to realize their goals as improved time to market, increased customer- and employee satisfaction, cost reductions, and meeting regulatory deadlines. Jarl is an enthusiastic and knowledgeable trainer on several Agile topics. He trains yearly from practitioners to management, from team practices to Agile at Scale solutions, from foundation to advanced level.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/william-louth__resilience-circuitbreakers-back-pressure-qos-and-adaptive-control-/","William Louth","Resilience: CircuitBreakers, Back Pressure, QoS and Adaptive Control","Abstract:
+
+This talk looks at some of the techniques used by online software services to enhance the resilience of service entry and exit points long the software supply chain in the processing of a request.
+
+The talk covers such rudimentary techniques as circuit breakers and back pressure and then moves onto Quality of Service (QoS) at the application level and finally delving into more advanced options such as adaptive control valves: moving from explicit and intrusive options to those driven by policy and/or goal searching that are much better aligned to a 'systems thinking' approach to resilience.
+
+Speaker:
+
+A renowned software engineer with particular expertise in self adaptive software runtimes, adaptive control, self-regulation, resilience engineering, information visualization, software simulation &amp; mirroring as well as performance measurement and optimization.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/jon-tilt__reinventing-the-modern-enterprise-starting-with-ourselves/","Jon Tilt","Reinventing the modern Enterprise, starting with ourselves!","Abstract:
+
+DevOps in the Enterprise
+&ldquo;How do we deliver the right outcome at the speed the market demands?&rdquo; This is the question at the center of our DevOps journey. Most of the strategies and tactics that have been successful are well-known: learn and respond quickly from tight feedback loops with real customers, have self-organized and motivated teams share ownership of all aspects of their outcomes, and use high-value engineering practices that produce operationally excellent software that&rsquo;s able to build and deploy and perhaps even repair itself.
+If you are starting up a new group, adopting these approaches as you learn to work together towards your new outcome is only a normal amount of challenging. But what if you have a going concern, an existing enterprise, that didn&rsquo;t grow up working that way? And what if those teams already have products in the field and work in their backlogs? How do you shift left and successfully transform culture, practice and attitudes?
+IBM&rsquo;s Cloud unit&rsquo;s DevOps Transformation Team goes well beyond advocacy and evangelism, embedding educators, coaches and practitioners with teams prepared to improve. The program starts with selecting teams that are willing and committed to the transformation and kicks off with a 3 day boot camp for executives and managers to set expectations and assure alignment. This is followed by a series of developer boot camps where teams learn to use IBM Design Thinking to drive the right outcomes as well as various modern practices to improve speed of delivery and operational excellence while adopting a start-up culture to the way they work. Another service of the DevOps Transformation Team is providing a fully functional tool chain that teams learn to operate and can adapt to their situation. Practitioners and coaches remain embedded with the teams to help assure their success.
+This session will share details and early results of this program.'
+
+Speaker:
+
+Jon is an Agile coach for IBM's Cloud unit. He has a background in software testing and is passionate about the 'How' of software delivery.
+
+For the past 10 years he has been a leader in the agile transformation of IBM's Software group and more recently evangelizing the values and practices of DevOps.
+
+In his spare time Jon is an athletics coach, leading a large group of endurance athletes.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/walter-heck__puppet-on-windows-at-scale-kpn/","Walter Heck","Puppet on Windows at scale: KPN","Abstract:
+
+A very large project is being undertaken at KPN this year with most of their  managed hosting clients being moved to puppet. The interesting part is the sheer number and size of environments and the fact that the majority of servers runs windows.
+
+This talk will outline the story so far, lessons we have already learned and what we are doing to make things as smooth as possible.
+
+Speaker:
+
+Walter is a passionate puppet expert, certified Puppet Labs trainer and DevOps enthusiast. He has been running PuppetLabs partner OlinData since 2008 and is now involved in one of the largest and most advanced puppet projects in the Netherlands.
+
+Walter has spoken at many conferences around the world about technical topics on many subjects.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/bert-van-der-zee-roger-wouterse__predict-the-success-of-your-upcoming-releases-with-devops-analytics/","Bert van der Zee and Roger Wouterse","Predict the success of your upcoming releases with DevOps Analytics","Abstract:
+
+DevOps Analytics is a new method of analytics based on Big Data technology and Machine Learning. DevOps Analytics predicts trends and  the success of the upcoming releases before the coding of the release even starts. This gives a new insight in the validated learning idea of LEAN and new testing ideas for DevOps.
+
+One of the key elements of DevOps is continuous testing. To optimize testing, automation is essential. However, you do not know how successful the system actually is, unless it&rsquo;s based on experiences of users. The latter is needed to power the learning cycle in DevOps.
+Tangible data tells us about, performance, production, number of errors etc . Non tangible data is about  experience, feelings, surveys and all non-structured information like tweets, logfiles etc. DevOps Analytics gives us the possibility to find trends and relationships in the tangible and non tanglible data
+Our talk is about the possibilities and the implementation of DevOps Analytics to analyze data (BigData) to extract the users actual experiences on the functional and non-functional level. By using machine learning, the algorithms improve themselves every release. This results in a quick feedback loop to the DevOps team, making sure that every release is an improvement.
+
+Speaker:
+
+Bert van der Zee is an independent teacher and consultant specialized in Data Analytics, Agile,  Lean, and Quality management. He writes articles about  Innovation, Data Analytics and Agile and published a book about the innovation method Qute in 2013. He speaks to groups about innovation and the world of Big Data.
+
+Roger Wouterse is Managing Consultant for SYSQA specialized in Agile, requirements and QA. He also trains and coaches on these subjects and is part-time Agile trainer for the Nyenrode Business University.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/jarl-meijer__hey-be-agile-you-know-what-i-mean/","Jarl Meijer","Predict the success of your upcoming releases with DevOps Analytics","Abstract:
+
+What does it really mean to be Agile? Following an &lsquo;Agile process&rsquo; like Scrum, Kanban or SAFe is just one step. While transforming to an Agile organization we also expect people to be Agile in behavior and mindset. Without &lsquo;an Agile culture&rsquo; and &lsquo;Agile people&rsquo; fallback to traditional behavior is close by and benefits from an Agile transformation shrink rapidly. Can you explain what Personal Agility is, so that the people in your organization understand what is expected from them? After this session you can!
+
+This session will explain the 4 aspects of being Agile:
+&bull; Agile collaboration (COLLABORATION)
+&bull; Agile attitude (ATTITUDE)
+&bull; Agile solutions (SOLUTION)
+&bull; Agile way of working (METHOD)
+
+Each aspect will be made tangible &ndash;and the model is best explained- by using many explicit examples of less versus more Agile.
+The participants will be invited to actively apply what they learn by filling in the short version of the personal agility assessment during the session.
+
+Speaker:
+
+Jarl Meijer is an experienced Agile coach-trainer-consultant. Educated in Business Computer Science and Psychology, he started his career as an entrepreneur, developing medical diagnostic tools. From the mid '90-ties he is an IT-consultant who made his mark in quality- and project/program-management.
+
+In 2008 he moved to Xebia, the leading Agile consultancy company in the Netherlands. In his assignments he helpes organizations to transform in an Agile organization to realize their goals as improved time to market, increased customer- and employee satisfaction, cost reductions, and meeting regulatory deadlines. Jarl is an enthusiastic and knowledgeable trainer on several Agile topics. He trains yearly from practitioners to management, from team practices to Agile at Scale solutions, from foundation to advanced level.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/patrick-van-dissel__mayfly-dockerize-your-user-stories/","Patrick van Dissel","Mayfly, Dockerize your user stories","Abstract:
+
+In this talk we introduce Mayfly, a user story-centered development platform for continuous delivery, developed and in use at bol.com. Mayfly leverages container technology to provide engineers with short-lived, isolated development environments for their services.
+
+This talk will provide an overview of the Mayfly architecture, how it works and the technology it uses.
+
+Topics include:
+- Everything-as-code (Environments, Build pipelines, Definition of Done, ...)
+- No conflicts on master
+- No integration testing environment
+- Open Source
+
+Speaker:
+
+DevOps minded software craftsman with operational skills. Delivering Groovy Java solutions continuously in a test-driven, agile manner. Working on everything development process tooling related, like the Continuous Delivery build pipeline, with the Development Process Innovation team at bol.com
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/sabine-bernecker-bendixen__look-at-the-man-in-the-mirror-thesmart-way-for-change-management/","Sabine Bernecker-Bendixen","Look at the man in the mirror – The smart way for change management in personality","Abstract:
+
+You want to implement DevOps ideas in your team? Then be aware that
+implementing DevOps means a lot more than just changing the general set-up of the actual organization of the work. It demands lots of changes in personal behaviour and attitude - first of all by the initiator!
+Besides powerful arguments it is of an absolute importance to convince others of the necessity of the personal change! So you &ndash; as the initiator &ndash; have to think about punchy arguments as well as reflecting yourself &ndash; and all this before integrating the whole team!
+With starting your own personal changes you will also commence a viral process in your team. Your own attitude, your way of communication or your attempts to recognize other people&acute;s points of view are possible sources for your own change. Sooner or later multipliers will follow you step by step and help you to spread out your ideas! A motivational loop will start and will reach more and more people.
+
+In this session you will learn:
+-   which questions you will have to ask yourself before starting the personal change
+-   why personal changes need time to grow
+-   why leading people to change is much more efficient than pushing them to change
+-   how you will identify different roles of all stakeholders in a team
+-   how you will make multipliers work for your ideas
+-   how to deal with &ldquo;NoNos&rdquo;
+-   how this smart way of personal change management will have a motivational effect on you and your team
+-   that it will also work if your are not &ldquo;the big boss&rdquo; in the team
+
+But most of all you will learn that there always has to be someone to start with the change &ndash; YOU!
+
+Speaker:
+
+Sabine is coaching people, moderating workshops, leading projects up to 100 people and teaching people of different professions in communication skills, soft skills and leadership skills for more than 20 years. She helps new teams to grow together and leaders to find their own people centered way of bringing out the best of their teams. To work on and manage agile projects means a lot more than technical tools and putting different people together especially in soft skills.
+
+According to her LaaS - Leadership as a Service - leading people is a way of thinking and believe, a way of behaviour and living! She assists leaders, teams and companies to create and implement their own agile, human focused culture and helps them to reflect their situations. With her talks at DevOpsdays Ljubljana and Paris she attracted a lot of interest!
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/dan-boutin__its-not-called-continuous-integration-for-nothing/","Dan Boutin","It is not called Continuous Integration for Nothing!","Abstract:
+
+This talk will dig deep into the process of continuous integration (CI) and the key processes that make up the overall CI process.  We will discuss the relationships and process flows between change management, configuration management, and release/build management and how the CI process, when coupled with a solid performance engineering discipline across the product lifecycle, can result in a better user experience for your web &amp; mobile application.  We will speak about the entire lifecycle, the 'conveyor belt' of the application lifecycle, with concentration on the 'Big 3' processes that support the overall CI strategy.
+
+We will include a real-world example of how SOASTA uses Jenkins and other open source solutions for its 'conveyor belt' and how this process enables SOASTA to complete over 100 product releases in 2014 and still maintain its customer SLA's for its Saas product offerings.
+
+Speaker:
+
+Based in Gainesville, Florida, Mr. Daniel Boutin is Senior Product Evangelist at SOASTA.
+
+Prior to that, Mr. Boutin has held roles at IBM Rational and Mercury/HP Software, and has worked for IBM Global Services, specializing in the areas of performance management, testing and scalability and ITIL.
+
+In addition, Mr. Boutin led the corporate SEI initiative at Lockheed Martin and was one of the contributors to ISO 12207, the U.S. commercial software standard.
+
+Mr. Boutin has previously presented his work at the Atlantic Test Workshop (ATW) in Corsica, France, and Durham, New Hampshire.  Mr.Boutin also has presented at the Advanced Technology Workshop in Toulouse, France, and at Hanscom Air Force Base in Massachusetts.
+
+Mr. Boutin has also presented at itSMF events in Milwaukee, Toronto, Atlanta and Calgary, as well as the itSMF National Conference, multiple Gartner Conferences, and many local and regional events on a variety of topics in performance engineering and the SDLC.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/david-mytton__how-to-handle-incidents-downtime-and-outages/","David Mytton","How to handle incidents, downtime and outages","Abstract:
+
+'100% uptime is impossible. Modern architectures are designed around failure but what does that mean for the human aspect of incident management? This talk will consider how to prepare for outages, how to structure the response, and how those experiences and techniques differ for small and large companies.
+
+Key topics will include:
+
+
+On call - rotations, scheduling, systems and policies
+Preparing for downtime - teams, systems and product architecture
+Documentation
+Checklists and playbooks
+How we actually handle incidents
+Post mortems'
+
+
+
+Speaker:
+
+'David Mytton is the founder of Server Density, a SaaS product which helps you manage the uptime and performance of your infrastructure.
+
+Based in the UK, David has been programming in Python and PHP for over 10 years, was one of the earliest production MongoDB users (founding the London MongoDB User Group) and scaled his company from a single VPS to hundreds of servers deployed across multiple data centers.
+
+Server Density now processes over 250TB/month of monitoring data from organisations such Boeing, Greenpeace and the NHS Ambulance Emergency Response.
+
+He has spoken at a range of tech conferences including GigaOm Structure, Velocity Europe, MongoDB Days, NoSQL Matters, CloudConf, PuppetCamp and Devopsdays.'
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/trishal__functional-and-system-verification-testing-–-the-devops-way/","Trishal Choudhari","Functional and System Verification testing – The DevOps Way!","Abstract:
+
+Testing or quality control for any product or a service offering is as critical as developing the product / service offering itself.  Additionally, achieving sufficient amount of testing to certify that the requirements are met with high quality or as per the quality criteria defined by the organization in a fast pace delivery model like DevOps is quite challenging.
+
+This paper address the experience of adoption of the DevOps by the FVT and SVT teams &ndash; in terms of their perception, best practices and methodologies that have been adopted to achieve sufficient amount of testing in DevOps model and hence their inherent benefits which can be a great reference point for teams looking to adopt to this model.
+
+Speaker:
+
+'Trishal Choudhari is the overall SVT lead for the Cloud Systems Software group on the Infrastructure as a Service cloud delivery model. He has a strong networking background and has front end-ed all the critical SVT deliveries.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/jeffrey-fredrick__frustrated_it_is_probably_your_fault/","Jeffrey Fredrick","Frustrated? It's probably your fault","Abstract:
+
+Are you frustrated at work, unable to get everyone to see the obvious? Are you blocked by political machinations, incompetence, sloth, or the embodiment of other human failings? I&rsquo;ve here to give you the good news: it is probably your fault, which means you can do something about it.
+
+Like most people you probably suffer from Skilled Incompetence. Skilled, because you produce actions effortlessly and unconsciously; Incompetence because your actions generate outcomes other than what you want. Without being aware of it the strategies you enact generate the very mistrust and resistance that is the source of your frustration.
+
+In this talk I will introduce the work of Chris Argyris, his models for understanding our action strategies, and tools that can help you understand your own behavior better, build trust with others, and to create better outcomes by seeking learning rather than winning.
+
+Ultimately this talk will attempt to convince you to take up the challenge of changing your own behavior. Despite what you may espouse about wanting a learning culture your frustration is a signal that what you want is for other people to learn. Saying you are open to change is different than acting that way. I hope by the end of the talk you want to know the truth about yourself enough to put these tools into practice.
+
+Speaker:
+
+Jeffrey Fredrick is an internationally recognized expert on Continuous Integration with a mission to reduce suffering in software development through acquiring excellence. He is currently CTO and Head of Product at TIM Group in London. He is also the organizer of CITCON, an international open space software conference, and the organizer of the London Action Science meetup, which focuses teaching individuals to create change in their organization by changing their mindset and communication.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/leslie-hawthorn__fear-of-failing-fast-how-to-avoid-sabotaging-your-success/","Leslie Hawthorn","Fear of Failing Fast: How to Avoid Sabotaging Your Success","Abstract:
+
+While it&rsquo;s easy to pay lip service to the idea of innovating by failing fast, humans are both neurally geared and financially incentivized to avoid failure. We&rsquo;ve all heard the tales of woe: blameless reviews that were anything but blameless, encouragement to work on an experimental project with punishment being the primary result of its failure, and the associated fear of doing anything new, speculative or untried. The results are simple: individuals, teams and companies that stagnate slowly.
+
+So how can we create an environment that makes failing fast safe for the participants and their organizations?
+
+In this talk, we&rsquo;ll cover key strategies for creating an environment that fosters rapid innovation in your organization, including:
+
+
+Conducting effective and truly blameless project post-mortems
+Building a corporate culture &amp; HR processes that encourage failing ''the right way''
+Measuring the impacts of positive failure &ndash; and failing to fail &ndash; on your organization&rsquo;s bottom line
+
+
+
+Attendees will leave this presentation with concrete strategies to conquer their own fear of failure, and how to help their organizations do the same.
+
+Speaker:
+
+An internationally known community manager, speaker and author, Leslie Hawthorn has spent the past decade creating, cultivating and enabling open source communities.
+
+She created the world&rsquo;s first initiative to involve pre-university students in open source software development, launched Google&rsquo;s #2 Developer Blog, received an O&rsquo;Reilly Open Source Award in 2010 and gave a few great talks on many things open source. In August 2013, she joined Elastic as Director of Developer Relations, where she leads community outreach efforts.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/dominik-bamberger__empower-your-support/","Dominik Bamberger","Empower your Support","Abstract:
+
+Times during which Tech Support has mostly been about suggesting to turn things off and on again are over. Nowadays, for a lot of companies, customers are highly skilled professionals themselves and are therefore more demanding when it comes to paid services. As a result, the broad spectrum of knowledge and experience that comes with DevOps practices come into focus when trying to build a high quality support team.
+
+This talk is going to shed some light on how GitHub Enterprise Support works and why DevOps is an integral part of it. We're going to look at the overall problem that needs solving and some best practices around it. Finally, there will be a couple of real life examples to gain a deeper understanding of the subject.
+
+Speaker:
+
+Dominik is a Ruby developer by heart. He thrives when working in an open-source environment and loves people who freely share their ideas (and code) with others. He relishes the infinite possibilities that come with that freedom.
+
+Born and raised in Franconia, Germany, Dominik received a master&rsquo;s degree in computer science and business administration from the University of Bamberg. After working as Engineering Manager for SUSE Linux, he joined GitHub as an Enterprise Support Engineer.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/zeljko-plesac__developing-android-apps-like-navy-seals/","Željko Plesac","Developing Android apps like Navy Seals","Abstract:
+
+DevOps principles have been used in web application development for a couple of years now. They provide mechanisms to quickly respond to feature requests or bug reports and build better software. Mobile development, being a much younger discipline, is yet to develop these principles to a higher level.
+
+In this talk, we'll show how we organised a state-of-the-art Android development process. We use a few well known tactics like Continuous integration, MVP, Git flow, Lint checks, Unit tests, multi-environment support, a Jenkins build server and others. Also, we created new solutions to assault Android problems, like an internal service for deployment and a few new Android libraries.
+
+With this process, we're sure that all developers work to a standard level of quality, that all new features are tested by automated tests before going into production and that we always have a stable build on our hands. Our goal was to have a standard process, but also remain agile (just like Navy seals!) .
+
+We'll wrap up with a few tips&amp;tricks, and point out a couple of problems we stumbled upon while implementing the process.
+
+Speaker:
+
+&#381;eljko has been a part of the Infinum Android team for 2 years. He has mastered all those nasty bugs and errors which can occur while developing even the most complicated projects. His passions include ORM libraries and frameworks, Android Studio and contributing to open source. His love for Android Studio can only be matched by his hatred for Eclipse.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/behrooz-nobakht__develop-operation-operate-development-a-journey-towards-service-delivery-at-large-scale/","Behrooz Nobakht","Develop Operation, Operate Development: A journey towards service delivery at large scale","Abstract:
+
+SDL Fredhopper has experienced a 10x-magnitude of growth in the past few years. Currently, SDL Fredhopper e-commerce services are delivered to around 400 customers through close to 3000 servers on our cloud environments. Operating such an environment is not an easy task as well as developing for it. To overcome the task, we started to realize we need to bring development and operations together. In this talk, we present how this unique journey started, discuss our challenges throughout the journey, how the accomplishments became possible, and how this journey continues.
+
+The talk presents the following outline:
+
+
+The Challenges: The journey began for us with pinpointing essential and fundamental objectives. What is a server definition from an operations and development perspective? What operations do we expect from a server? What operations the software itself should take away? What is our unit of deployment and development?
+The Solution: We took in every challenge from operations perspective and turned it into a development responsibility. We explain how the challenges we identified explicitly present  themselves into the architecture of the products we develop. We present how we lifted the abstraction of a server from &ldquo;resource&rdquo; level to API level. We discuss how the unit of deployment from a physical server is turned into a unit of API for a server. In addition, we discuss how such deployment API facilitates operation of a cluster of servers in a natural way.
+Diversity: We present how our approach is different from other common approaches. When we started our journey, we did not have a complete world view. On the way, we found out related work targeting the same objectives. We present how we differ from very well-known similar approaches, re-assuring of the approaches that we took.
+Gains and Conclusions: We present how our journey has helped us to craft a unified development, deployment, and operation architecture to enable our service delivery. We present how such approach gives us benefits and removes the concerns and challenges that we started with.
+
+
+
+Speaker:
+
+Behrooz joined SDL Fredhopper in 2011 as a software engineer and he is now leading the cloud services platform team. He comes from more than a decade of software engineering practice with recent focus on distributed systems, fault-tolerant and highly-available services.
+
+His typical week involves catching up with operations team, identifying the gaps and bridges for the platform team, hacking on prototype ideas for operations, and of course weekly work in the team. In the practice of DevOps, as a developer, he has experience in sleepless nights, false negative SMS alerts and as such which he thinks is an insightful experience for every software engineer.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/niels-loader__devops-is-not-what-it-seems/","Niels Loader","DevOps is not what it seems","Abstract:
+
+'There are many definitions of DevOps. Depending on who you ask, you will get a different view of what DevOps is about - tooling, an extension of Agile, continuous delivery, multifunctional teams, culture change, cost reduction. In Europe, DevOps is seen as a work method rather than a strategic choice.
+
+In this talk, I will present a different view on DevOps, based on its goals and intentions rather than its technical characteritics. The aim of this view is to create common ground between the technical and managerial responsibiities within an IT organization, and ensure that both areas can reap the benefits of DevOps '
+
+Speaker:
+
+Niels has been involved with improving the performance of IT organizations for the past 13 years. He developed an IT Performance Improvement method that has provided many IT organizations with substantial improvements. He subsequently was involved with the development of Lean IT.
+
+He was Chief Examiner Lean IT for APMG and is currently Content Lead for the Lean IT Association. More recently, he has been using the principles of DevOps to help IT organizations take the next steps in their ability to meet the requirements of their customers.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/esha-seth__devops-in-action/","Esha Seth","DevOps in Action","Abstract:
+
+Software product development has seen the change from various legacy SDLC to lean development via agile and DevOps methodology. DevOps methodology enables communication and strong collaboration among all stakeholders like developers, testers and customers. The 'one team' approach' provides continuous delivery/ integration keeping stakeholders feedback in mind. My session will focus on the challenges and benefits of adapting DevOps as a practice in our product development, from planning a release to fast paced sprint execution, close collaboration between development, test/QA, documentation team, management and customers, challenges like external dependencies if open source code is involved (openstack), continuous integration/delivery and benefits of this approach like enabling to integrate customer requirements during release by continuous feedback, focus on test automation to reach a successful final release of product.
+
+DevOps integrates developers and operations teams in order to improve collaboration and productivity by automating infrastructure, automating workflows and continuously measuring application performance.
+
+DevOps Delivers
+Accelerated software delivery - By enabling collaboration and eliminating organizational silos
+Balanced speed, cost, quality and risk - By automating manual processes and eliminating waste
+Improved client experience - By automating the customer feedback loop
+
+Speaker:
+
+Esha Seth is a senior staff software engineer with IBM Systems and Technology Labs in Pune,India. She has around 8.5+ years of product development in cloud computing, systems management and virtualization related projects. She holds a Bachelor in Engineering in Computer Science from Pune University and a Masters of Science in Systems Software degree from BITS Pilani.
+She has worked with various SDLC methodologies during her career and has been actively involved currently in a project related to Openstack and POWER systems management adapting DevOps methodology in practice.
+She has co-authored an IBM Redbook, 3 filed patents, 6 published disclosures and been a part of Corporate Service Corps program for leadership development at IBM. She is also an active participant in diversity and University Relations program at IBM. She has been selected for presenting sessions at internal IBM events and posters at external events like Women in Technology and Society of Women Engineers.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/michael-cote__devops-from-an-investors-perspective/","Michael Coté","DevOps from an investor's perspective","Abstract:
+
+Investors - like VCs and strategy planners inside companies - are starting to hear about DevOps and are curious how they might profit from it. This talk is a DevOpsDays version of what those investors want to know, explaing how they view emerging markets like DevOps and evaluate investment into the markets.
+
+It contains a 'case' for evaluating investments in DevOps, covering the viablity of DevOps from their perspective and possible ways that 'DevOps' could effect the models and valuations that investors are performing.
+
+The question being answered is: 'should I invest in DevOps? Does that even make sense?'
+
+Speaker:
+
+I'm a sometimes industry analyst (having worked at RedMonk and 451 Research), corporate strategist (Dell), and former programmer.
+
+Now I work at Pivotal in technical marketing for Pivotal Cloud Foundry. Cloud!
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/patrick-roelke__data-science-the-solution-to-monitoringsucks/","Patrick Roelke","Data Science: The Solution to #monitoringsucks","Abstract:
+
+'As an Operations Engineer at Germany&rsquo;s leading fashion website STYLIGHT, my team and I are constantly looking for ways to reach monitoring zen&ndash; with mixed results. Despite using leading tools like New Relic, Loggly, and DataDog, we still aren&rsquo;t getting the answers we need from our data.  My proposed talk will address #monitoringsucks in 2015, what this new fangled data science thing means, and what the tools of the future look like.
+
+Ever since the #monitoringsucks trend kicked off a conversation about the state of monitoring tools in 2011, there has been a flurry of activity resulting in new solutions, improved tools, and applications generating tons of data. However, we are still faced with the same issues almost 4 years later. Alerts still generate far too much noise to be useful. Dashboards aren&rsquo;t actionable and require human interpretation. The volume of log, time series, and other data makes it difficult to collate, visualize, and interpret in the mythical single pane of glass. How do we definitively solve these problems?
+
+Data science. Using advances in data science and machine learning that are already being applied to &ldquo;sexy&rdquo; problems at companies around the globe, we can finally reach a tipping point when it comes to #monitoringsucks issues. New data science  tools can pinpoint problems before they hit a static threshold, group alerts from a variety of sources into a single logical error, and prevent eye strain from studying hundreds of graphs. In this talk, I will be discussing the virtues &ndash; and pitfalls &ndash; of new monitoring entrants like Kale from Etsy, Bosun from StackExchange, and Twitter&rsquo;s open source R package AnomalyDetection.'
+
+Speaker:
+
+Patrick Roelke is an Operations Engineer at STYLIGHT in Munich, Germany.
+
+He has more than 11 years of experience in IT Operations, Configuration Management, and charming useful data from monitoring systems.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/julianna-szabo__data-quality-achieved-by-culture/","Julianna Göbölös-Szabó","Data Quality achieved by culture","Abstract:
+
+To be a data driven company, you can't be satisfied with measuring every tiny aspect and detail of your business or service, you have to be sure that the raw data is accurate. Assuring the quality or ever growing unstructured clickstream data is very hard though, espacially if the accountable team is your dedicated data team but the logs are written and produced by all other product teams.
+
+We faced this problem recently and this is the way we tackled it: First, forget unstructured data, you can get sustainable quality only with structured logs. Then convince your fellow developers in the product teams about the importance of this project. Make the migration as smooth as possible by leveraging from the nature of structured data: provide tools that build upon the schema of the JSON logs, make monitoring and alerting automatic, so facilitating to sustain the quality of logs.
+
+All in all, we focused on communication between teams, selling rather than telling, creating the demand on better quality data. Eventually all data team, product teams and the company won.
+
+Speaker:
+
+Julianna works in Prezi's data infrastructure team. She's responsible for both the availability of Prezi's big data platforms (hadoop, data warehouse) and the tooling on top of them (eg. automated ETL framework) and any other projects related to data and logs, like providing automated monitoring for logs.
+
+In her spare time Julianna likes going out running or doing any other kind of sport. Besides she's involved in feminist movements, her main focus is attracting more women and girls to tech fields.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/francisco-medrano__create_chaos_and_gain_confidence_thinking_outside_of_the_box/","Francisco Medrano","Create chaos and gain confidence! - Thinking outside of the box","Abstract:
+
+'A small number of modules usually contains most of the defects'
+
+This is one of the seven principles of testing and has been proven by many past projects in the test reports. When we talk about Testing, two topics comes up, Black Box and White Box. These techniques are good to make sure the system meets their requirements. But what if you think different and outside of the Box by doing things are not in the requirements. ;) like type a large string in a small text box field, upload a corrupt file to the data base, try to access a privileged function with a normal user access or even send the same command to a server several times in a row? output definitively it will be different.
+
+Error Injection is important to evaluating the dependability of computer systems, both Hardware and Software. This is a technique to improve coverage of a test in particular to error handling, recovering, tolerance and auto-reparing of a system. It's often used in stress and load test. Errors can be injected in Software, Hardware and Service procedures environments. There's not a magic recipe for doing a full test coverage. But definitively a correct risk analysis and error injection approach will give you more confidence about the quality of the system.
+
+Speaker:
+
+Born tester and evaluator of new Technology, Francisco Medrano is a passionate for state of the Art Technology and Aviation enthusiastic. He was graduated from University of Guadalajara in Mexico in Electrical Engineering on 2008. With more than 9 year of experience in Software and Hardware Testing Francisco has been involved in complex and challenging  projects of Storage, Aviation and Manufacturing Industry.
+
+Currently he is charge of Develop Test strategy for emerging Technologies tools. Helping Sales force to achieve their goals and objectives. Collaborate and work with Global Test teams around the globe, making sure the new Tools meet the QA metrics and accomplish the requirements.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/harm-pauw__continuous-delivery-devops-and-the-end-of-dtap/","Harm Pauw","Continuous Delivery, DevOps and the end of DTAP","Abstract:
+
+Having a DTAP (Development, Test, Acceptance and Production) environment is a very common setup that a lot of companies use in their software development process. While this setup maps perfectly to waterfall development, it doesn't really fit when used in a Continuous Delivery and DevOps environment. A lot of tests run automatically and often cause  concurrency problems since they all run on the same machines. Test data management is becoming difficult since you need to satisfy all tests with one set of test data.
+
+Meanwhile, technologies like Docker, cloud based computing and Infrastructure as Code change the rules of the game. Instead of having a supply-based infrastructure, you can quickly and in a cheap way create a demand-based infrastructure where you provision environments on the fly, which greatly reduces complexity and concurrency problems.
+
+This session covers the rationale behind DTAP and we'll see how good of a fit DTAP is in a Continuous Delivery and DevOps environment. We'll take a look at proven patterns in software development and apply these using technologies like Docker and cloud based computing in order to reduce complexity go from a supply-driven infrastructure to a demand-driven infrastructure.
+
+Speaker:
+
+Harm Pauw is a Technical Agile coach at Prowareness. Using his experience and knowledge as a former passionate software developer, he now helps teams with starting and practicing Continuous Delivery and increasing their craftsmanship.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/miel-donkers__continuous_delivery_isnt_finished/","Miel Donkers & Hylke Stapersma","Continuous Delivery isn't Finished","Abstract:
+
+Continuous Delivery is focussing mostly on deploying services (software) to production, so that they can be used by the customer. But we think that's not where the role of Continuous Delivery ends. Keeping these services running in production is just as important. Therefore making sure that monitoring is in place and the possibility to take evasive measures belongs to the process of continuous delivery.
+We would like to discuss what we think is necessary to take the next steps, and show some examples on how this can be arranged.
+
+Speaker:
+
+Miel Donkers:
+Miel Donkers is a software craftsman at codecentric Netherlands. He's an experienced web- and Java developer, who's also interested in ways for bringing software into production as fast and as reliable as possible. This not only includes the deployment process, but also monitoring, problem mitigation and simply building 'the right thing'.
+
+Hylke Stapersma:
+Hylke is a software craftsman who is working as a consultant for codecentric and he is a contributor and maintainer of a small number of open-source projects. He is passionate about sharing ideas and knowledge on everything related to software development and delivery.'
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/diego-garber__continuous-delivery-evolution/","Diego Garber","Continuous Delivery evolution","Abstract:
+
+Over the lapse of 2 years we have been implementing Continuous Delivery at OLX (Free Classifieds online), the aim of the talk is to share some of our learnings, tools used and tools developed in house and opensourced (like Octopush check it up on github).
+
+How we manage to change the culture in the process and install the concept of DevOps.
+
+We are in the process of continuous improvement, we have evolved from SVN to Git, from tags to artifacts and then to Native packages, from bash to Ansible and from manually triggering deployments to the intensive use of Jenkins.
+
+Speaker:
+
+Diego Garber has studied Computer Science and worked as a Java programmer for most of his carreer, but 4 years ago he was tempted with the challenge to become Release Manager at OLX. He managed since then to completely change the way Dev and Ops worked, evangelizing about devops and Continuous Delivery he achieved his goal of speeding up and agilizing Deployments to Production and the overall Development cycle. He has given talks about this issue on 2014 at Devops Ljubjlana, Agiles Conference in Medellin and at MySQL/NoSQL &amp; Cloud conferences in Buenos Aires.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/alban-crequy__container-mechanics-on-linux/","Alban Crequy","Container mechanics on Linux","Abstract:
+
+Containers as a virtualization technique become more relevant for devops. But do you know how containers work under the hood? This talk will describe the Linux primitives that make containers possible: namespaces and cgroups.
+
+Have you ever wondered what containers really are? We will attempt to shed some light on this.
+
+Linux doesn&rsquo;t have a &ldquo;container&rdquo; concept, but a set of primitives that allow containers to be implemented. These primitives are namespaces and cgroups: namespaces provide isolation and cgroups allow process grouping and restriction.
+
+This talk will explain what namespaces are there currently (PID, mount, network) and what can you do with them. It will also introduce cgroups and how they can be used to restrict processes inside the container.
+
+This will not go into specific details of system calls (unshare/clone).
+
+Speaker:
+
+After a more than a decade of developing on Linux, Alban has racked up experience in system and kernel development, focusing on security and networking.
+Originally working on proprietary software for Linux clusters, Alban long since switched to working on Open Source software for embedded devices and has never looked back. He has worked with such technologies as systemd, D-Bus, AppArmor and cgroups, as well as the Linux kernel itself.
+
+More recently, he has added several more areas to his resum&eacute;, including networking and cloud-based development. Alban particularly values work that allows him to collaborate with other contributors in a community.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/gregory-damiani__chef-patterns-for-speed-and-reusability/","Gregory Damiani","Chef Patterns For Speed and Reusability","Abstract:
+
+Rewriting your brittle shell scripts in Chef, Puppet, or another configuration management tool is great, but are you solving problems or keeping busy?  Here's a test:  do your 'execute' resources far outnumber all your other resources combined?
+
+It turns out, If you're not thinking about software engineering and designing your configuration management code as a solution to a business problem, you're just rewriting your shell scripts in a different language.
+
+If you know the basics of Chef and you're comfortable writing a full-featured cookbook, then perhaps this is the next step.  Hopefully you started out automating something small rather than your company's core application (The Devops Whale).  Now you're thinking about tackling the bigger projects around your infrastructure and you want to level up your skills.  If you consider yourself an advanced Chef developer, hopefully this review of state-of-the-art in Chef Patterns will teach you something new.
+
+Speaker:
+
+Senior Kitten Delivery Engineer at BuzzFeed UK. Waterman. Skier. Head chef at my house. Reader. Dancer. Gardener. Fast fingers, bad ideas.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/thomas-adams__bringing-devops-to-a-hardware-test-environment/","Thomas Adams","Bringing DevOps to a Hardware Test Environment","Abstract:
+
+Traditionally, DevOps focuses on the software model, bringing quality builds in rapid succession to end users who can quickly consume them. But what happens when the end user has to schedule an outage just to deploy the latest code? How do you combine the flexibility and speed of agile development with the cumbersome beast that is hardware test? It is possible!
+
+Through intense collaboration, the right tools and a good mix of automation, we were able to develop a DevOps pipeline that was not only able to consume new builds as fast as development could churn them out, but also do a baseline level of testing to ensure those builds were release candidates to the wider test floor. Hear how we tamed the beast and developed a process and infrastructure that is now being deployed to multiple other areas in the organization!
+
+Speaker:
+
+Thomas Adams is a Test Release Manager for High End Power Systems at IBM. With a background in programming and automation, he was asked to tackle bringing DevOps to life in the hardware test environment.
+
+He has been with IBM for 12 years in various roles within the test organization.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/eddy-pauwels__bimodal-it-through-lean-application-delivery/","Eddy Pauwels","Bimodal IT through Lean Application Delivery","Abstract:
+
+As Gartner predicts, by 2017 about 75% of IT organisations will have bimodal capability with about half making a mess. The type of business application is crucial to decide on the best application delivery strategy. IT Organisations need to build capability to support multiple methodologies and still have end-to-end traceability and control. This requires a Lean Application Delivery approach.
+
+This session will talk about Lean Application Delivery, how it supports bimodal, and what they key capabilities to focus on.
+
+Speaker:
+
+Eddy Pauwels (ITIL Master, Lean IT trainer, CSM, CSPO) is an experienced IT professional and excellent speaker. Eddy has a masters degree in computer science from the University of Brussels.
+
+During the past 25 years he specialised in Application and Service Lifecycle Management. As an accredited APMG trainer he regularly lectured on Lean IT and ITIL. Eddy is a respected coach within organisations to implement Agile, Lean IT and performance based service management principles.
+
+Currently he is VP of Sales and Marketing at Clarive Software.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/frederieke-ubels__autonomy-at-bolcom-is-like-putting-a-man-on-the-moon/","Frederieke Ubels","Autonomy at bol.com is like putting a Man on the Moon: a small step for a team, a giant leap for the company","Abstract:
+
+Bol.com opened its doors on 30 March, 1999. Almost 16 years later bol.com is the largest (web)shop in the Netherlands and Belgium and market leader in the field of online sales of books, entertainment, electronic devices and toys, with over 5 million active customers and 900 employees.
+Over the years bol.com has grown fast and steadily and the in-house IT department has been a powerful driver of innovation. To support our business with a short time to market and parallel progress in all key business areas, we started working agile in 2009. And to take all things necessary for growing further in our own hands, last year we build our own datacenter and insourced all web operations capabilities.
+But when you&rsquo;re growing you have to deal with growing pains: too many teams working in the same code, too many dependencies between development and operations, releases getting bigger and buggier, and the risk of frustrations getting out of hand. And with our ambition to grow more than 200 people every year, that&rsquo;s not risk but a certainty.
+So last summer we started &ldquo;Man on the Moon&rdquo;, our program to ensure scalability, productivity and motivation. Our goal is to help our teams to become independent &amp; autonomous while delivering a continuous flow of new functionality. Putting a Man on the Moon is not just a program: it requires boldness, creativity, inventiveness and commitment of everyone in the organization. It&rsquo;s a technical challenge and a cultural one as well. And it requires lift: of teams wanting autonomy, trust and tooling to fly their own mission.
+In the program we focus on 3 things:
+-   You build it, you run it, you love it: development teams pulling in operational run responsibility and eliminating dependencies that hold them down, one-by-one
+-   Building a self-service &amp; self-scaling platform to help us grow
+-   A new IT organization that enables autonomy and combines build &amp; run responsibility
+
+At this moment some teams are still on earth while others are preparing their landing on the moon. We redesigned the IT organization, gained scalability and boosted motivation. Releases are getting smaller and the number of incidents is dropping. We&rsquo;re not there, but as with so many trips: the journey itself is as much fun as reaching the destination, so we have a great story to share about everything we did, messed up, learned and gained on the way.
+
+Speaker:
+
+Frederieke Ubels has been working for bol.com for 10+ years. She started as the manager of the book department, and switched to IT in 2007. Her background in the marketing department has played a key role in aligning the IT organization with the business departments within bol.com. As a Director IT Innovation she is responsible for continuous improvement of the innovation process at bol.com, alignment with business departments and for the transition to a DevOps way of working, to ensure scalability of the IT organization. This helps bol.com grow, stay ahead of the competition and hold its leading role in (e)commerce in the Netherlands and Belgium.
+
+William de Ronde joined bol.com 10 years ago. In the years since, he did a full Tour of Duty in IT: as a developer, project manager, manager technology and head of operations. His experience combined with his gut feel way of working made him the best candidate to lead the migration to bol.com&rsquo;s newly built datacenter in 2014. Now that that&rsquo;s completed very successfully, he&rsquo;s the IT Innovation Manager helping the IT organization to stay on the edge by constantly motivating every engineer, manager and director to get the most out of themselves.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/tom-heisterkamp__agile-has-no-brain-that’s-why-you-need-continuous-service-discovery/","Tom Heisterkamp","Agile has no brain, that’s why you need continuous service discovery","Abstract:
+
+'What&rsquo;s next after lean/six sigma, agile development and continuous delivery? These methods make you do things right (effective and efficient), but what makes you do the right things? Agile starts with a vision and a filled product backlog, but how does it get filled and where does it come from? Hence the title &lsquo;Agile has no brain&rsquo;.
+
+Here is where the next thing comes in: continuous service discovery. This closes the complete life cycle from service discovery, development and delivery to service retirement. It can be done by collaborative cross-functional teams. With continuous service discovery your organization is capable of constant innovation. Lean Startup and Design thinking methods are used to achieve this. How it all fits together is going to be published in a book called &lsquo;How to Build a Sequoia&rsquo;.
+'
+
+Speaker:
+
+Tom Heisterkamp, certified SAFe Agilist (SA) and Certified Scrum Product Owner, has worked with the Dutch Tax and Customs Administration (DTCA) for more than thirty years. He has had a career of over twenty years in IT as programmer, designer, project leader and manager.
+
+Both in applications and in infrastructures. Then he switched to the demand side and has been concerned with the quality of demand &aacute;nd supply because you can&rsquo;t have one without the other. The last ten years he has been a development coach and picked up lean and agile five years ago as major ways to improve.
+
+This talk is given on personal behalf, either in Dutch or English. He was guest speaker at the Service Manager Dag twice, the DevOps Dialogues and several times at the MIT-symposium.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/mark-robert-coleman__a-re-imagining-of-the-term-full-stack-developer/","Mark Robert Coleman","A re-imagining of the term; 'full-stack developer'","Abstract:
+
+The aim of continuous delivery has always been to reduce risk by increasing the rate of feedback. Its predecessor continuous integration had the same goal and lead to the development silo swallowing the testing silo. Continuous delivery, by way of the devops movement, is now taking the next step: development is swallowing operations. This has lead to the emergence of so called 'full stack' developers; developers who claim to be able to do the dev and the ops.
+
+But the stack is not full. As software becomes bigger and more complex, the only way to make useful software is with teams of software developers. Teams means soft skills, and they are conspicuously absent from most people's definition of 'full stack developer.'
+
+In this talk I will explain why, to build cutting edge software, technical skills are simply not enough. All 'modern' software developers must be strong communicators, must display empathy for others and must be resilient in the face of criticism; skills that we hardly ever interview for, and that we almost never know how to develop in our staff.
+
+This talk will be of interest to anyone who has a technically strong team who fail to perform, or anyone who spends too much of their working day in petty conversations about tool choices or any developers who want to know how to move into the upper echelons of their profession.
+
+Speaker:
+
+Mark Coleman is a freelance Continuous Delivery consultant, a founding member of Docker Amsterdam, an associate at Container Solutions, and a co-organiser of DockerCon Europe 2014.
+
+He has more than 10 years of experience in Software Development, Configuration Management and IT Operations and has helped some of Europe's largest companies to change the way they create and deliver software to their users.
+
+When he's not hacking tech, he's hacking humans. Why do they do the things they do?
+
+Mark lives in Amsterdam, the Netherlands.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/tarek-negm__a-benefits-driven-approach/","Tarek Negm","A Benefits – Driven approach to practically identify a DevOps “point of launch” in Enterprise.","Abstract:
+
+As our client - a global Telecoms organisation - embarked on their journey to adopt DevOps, the key question they asked of us was: &ldquo;How to practically Start?&rdquo;. Although an end-to-end view with a phased approach is always the consensus when implementing DevOps in an enterprise, the exact, practical starting point is always a debatable detail.
+
+This case will present an approach to answer this important question (How to practically Start?) in a global enterprise where financial governance requires a benefits-driven approach to demonstrate business value and a business case to be approved.
+
+We will talk about our experience &amp; insights in building a benefits case for DevOps based on tangible business value using methodologies like activity-based accounting and priority criteria to help identify a platform or project to be the &ldquo;point of launch&rdquo; for DevOps and then decide which phase in the IT lifecycle is best to start with first &ndash; ensuring the bigger picture of DevOps in the enterprise is not lost into the details.
+
+Speaker:
+
+Tarek is a founding partner of Do Consultants - a specialist Enterprise DevOps services company. Before that, Tarek spent 16 years in global organisations in the Middle East, UK and Europe working in IT leadership and Technology roles. Tarek has worked in a wide variety of industries including Telecoms, Financial Services, Hospitality and F&amp;B. His experience in IT spans technology and change where he previously led global IT transformation programmes in global european organisations. Tarek holds an MBA from London Business School.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/michael-cote__[insert-keynote-here]/","Michael Coté","(to be announced)","Abstract:
+
+DevOps is just one part of a bucket of &ldquo;trends&rdquo; you hear about in every keynote, the riders of the digital apocalypse.
+
+You&rsquo;ve heard these talks: Software is eating the world! Cloud! Millennials! Mobile! DevOps! Change or die! You must buy our products! These trends are cast out as imperatives with little analysis of what they mean and if they&rsquo;re real.
+
+This talk looks at those keynote cliches and answers the question, &ldquo;do I really need to do anything about them?&rdquo;
+
+Speaker:
+
+I'm a sometimes industry analyst (having worked at RedMonk and 451 Research), corporate strategist (Dell), and former programmer.
+
+Now I work at Pivotal in technical marketing for Pivotal Cloud Foundry. Cloud!
+",""
+"","ignite","http://devopsdays.org/events/2015-amsterdam/proposals/pavel-chunyayev__why-immutable-infrastructure/","Pavel Chunyayev","Why immutable infrastructure?","Abstract:
+
+I'd like to present the evolution of infrastructure up to the modern day: from big physical snowflake-like servers to the modern immutable and disposable containers.
+
+During this ignite talk I'd like to answer the following questions:
+* Why have we ended up with immutable infrastructure?
+* What are the challenges for the system administrators when moving towards immutable infrastructure?
+* What are the benefits?
+* Why can't we just continue reusing the servers/VMs like we've got used to?
+* How immutable infrastructure influences Continuous Delivery process?
+
+Speaker:
+
+Pavel Chunyayev works as a continuous delivery architect at Levi9 IT Services and has more than 10 years of experience in IT Operations.
+
+He has helped more than a dozen customers to assess and improve their release/deployment processes, and run their applications better in production.
+",""
+"","ignite","http://devopsdays.org/events/2015-amsterdam/proposals/david-webster__time-series-metrics-at-betfair/","David Webster","Time Series Metrics@Betfair","Abstract:
+
+Time Series Metrics are the lifeblood of your systems. The ability to capture, store, interrogate and alert from that data is a wonderful thing.
+
+This session describes, at a high level, what they are and how Betfair is making amazing use of them by combining the open source projects OpenTSDB and Riemann and our own &ldquo;special sauce&rdquo;, OpenTSP.
+
+Speaker:
+
+David Webster is a Betfair veteran of 12 years.
+
+He&rsquo;s held many positions in that time but currently manages the UK Site Reliability team and has a passion for the monitoring systems required to support their production estate.
+
+This estate processes in excess of 70 million betting transactions on a busy day so Betfair&rsquo;s monitoring systems are bigger than some company&rsquo;s customer facing systems.
+
+He lives with his wife and three children on the Suffolk coast and is a member of the local RNLI lifeboat crew.
+",""
+"","ignite","http://devopsdays.org/events/2015-amsterdam/proposals/kris-buytaert__the-men-who-stare-at-goats/","Kris Buytaert","The men who stare at Goats","Abstract:
+
+'There's people who do devops and people who look at devops'
+
+Speaker:
+
+Kris Buytaert is a long time Linux and Open Source Consultant. He's one of instigators of the devops movement, currently working for Inuits
+
+He is frequently speaking at, or organizing different international conferences and has written about the same subjects in different Books, Papers and Articles
+
+He spends most of his time working on bridging the gap between developers and operations
+with a strong focus on High Availability, Scalability , Virtualisation and Large Infrastructure Management projects
+hence trying to build infrastructures that can survive the 10th floor test, better known today as the cloud while actively promoting the devops idea !
+
+His blog titled ''Everything is a Freaking DNS Problem'' can be found at http://www.krisbuytaert.be/blog/
+",""
+"","ignite","http://devopsdays.org/events/2015-amsterdam/proposals/alban-crequy__security-storage-and-retrieval/","Alban Crequy","Security: storage and retrieval of Application Container Images","Abstract:
+
+How can you be sure that the containers you execute are really the ones you intend to?
+
+rkt fetches Application Container Images (ACIs) using the appc discovery protocol. It involves HTTPS, cryptographic hashes and GPG signatures. This talk will explain some best practices and the security it provides. Will also be mentioned the differences when rkt fetches and executes a Docker image from the Docker registry thanks to docker2aci.
+
+Speaker:
+
+After a more than a decade of developing on Linux, Alban has racked up experience in system and kernel development, focusing on security and networking.
+Originally working on proprietary software for Linux clusters, Alban long since switched to working on Open Source software for embedded devices and has never looked back. He has worked with such technologies as systemd, D-Bus, AppArmor and cgroups, as well as the Linux kernel itself.
+
+More recently, he has added several more areas to his resum&eacute;, including networking and cloud-based development. Alban particularly values work that allows him to collaborate with other contributors in a community.
+",""
+"","ignite","http://devopsdays.org/events/2015-amsterdam/proposals/bas-meijer__fake-it-until-you-make-it/","Bas Meijer","Fake IT until you make IT","Abstract:
+
+Before launching your new app you would better be in control of your environments: develop &amp; test in a production-like environment and automate the whole enchilada using Ansible &amp; Vagrant.
+
+Bassie will show how to set up a disposable development environment that mimics your production servers in a re-usable way with minimal maintenance.
+
+Speaker:
+
+Bassie is a software developer &amp; system engineer with decades wasted on late-night hacking. While born before the epoch he has a keen eye for new technologies. At the moment he is engaged with a major Dutch bank and an established European identity &amp; access management cloud service.
+",""
+"","ignite","http://devopsdays.org/events/2015-amsterdam/proposals/gopal-ramachandran__dont-do-devops-without-a-solid-config-management/","Gopal Ramachandran","Don't do devops without a solid Config Management","Abstract:
+
+Everybody is now taking about devops and continuous delivery, which is basically a means to get the software from idea to production as quickly (and often) as possible. So we get started right-away with a ''deployment pipeline'', but forgetting to put in place some proper configuration management. This talk will focus on managing application configuration.
+
+So why do you need config management?
+
+Before configuration management (in the context of the organization I was working at (which applies to many other organizations)):
+- Incorrect application configuration leading to broken tests
+- Stakeholders (Dev, Ops, QA, functional managers) have no clue what is running where
+- Wastage of development cycle time
+
+How did we go about it:
+- Following the classic principle (to quote Jez Humble and David Farley in the bible on Continuous Delivery): ''Keep binary &#64257;les independent from con&#64257;guration information, and keep all con&#64257;guration information in one place.''
+- An auto-discovering CMDB which provides realtime insight
+- Making use of the Configuration management functionality of the automated deployment tool which we had bought
+
+The results:
+- Improved quality and reduced risks
+- Quick changes without touching code
+- Dashboard of version of software is running where
+- Longer test timeslots became available
+- Increased collaboration, everyone happier!
+
+Speaker:
+
+I have about 10 years of enterprise IT experience. I began my career as a Java web developer. After about 3 years, out of sheer curiosity I jumped the wall and took on the role of a deployment and hosting engineer. I then became part of an effort to break down the proverbial 'wall between dev and ops' in the organization.
+
+As a 'configuration manager', I have been working the past 2 years (at a large airline company) along with application teams to implement configuration management, devops and continuous delivery.
+",""
+"","ignite","http://devopsdays.org/events/2015-amsterdam/proposals/sanny-bradic__devops-step-in-systems-evolution/","Sanny Bradic","DevOps step in Systems Evolution– breaking Demand – Supply relationship","Abstract:
+
+Technology and business are closing the gap in Continuous Migration &ndash; Continuous Adaptation &ndash; Continuous Delivery
+Technology is progressing rapidly, new applications, new services that can change our way of thinking and can be a breakthrough for some companies who are adopting the technologies quickly and other hand rapid declining in growth for the companies who are slow or left behind.
+From the evolution of the IT &ndash; business ecosystems we can learn a lot. Remember Novell or Apple and IBM in early days. They discover and some not that agility and more focus to a customer by making innovative services.
+Nowadays we see with DevOps that time is for new relationship between business, IT and customers.
+The demand &ndash; supply relationship is an obstacle to a new ideas, creativity and entrepreneurship.
+The devops is one step to think about new organization structure that empowers knowledge sharing, collaboration, by using technology and faster execution power through Continuous development and deployment.
+The DevOps is the first step through Continuous System Migration and Adaptation to Empowered organization structure where we all supply for the common purpose.
+Slides:
+1)  Evolution of the systems
+2)  Careful step by step  system development
+3)  Large projects and more years IT plans &ndash; we can forget about that, vision is all you need
+4)  Demand &ndash; Supply &ndash; lost in translation
+5)  Agile not only in development but in structure and business clients relationships
+6)  Technology is in every piece of our business and life why division &ndash; collaboration is the way
+7)  Clean up removing technical debt, restructure finance and move up to empowered organization
+8)  With DevOps first step in BizzIT  no boundary - technology and business together
+9)   How Empowered organization looks like?
+10) Is it just a dream or evolution step?
+
+Speaker:
+
+Sanny is Solution Architect with 25 yers experiance in IT and 15 years as Solution Architect. He has been working at ABNAMRO, IBM, ING, KPN and now CGI.
+",""
+"","ignite","http://devopsdays.org/events/2015-amsterdam/proposals/wouter-geurts__devops-is-not-enough-devops-leads-to-disruptive-innovation/","Wouter Geurts","DevOps is not enough / DevOps leads to Disruptive Innovation?","Abstract:
+
+DevOps is a condition for business agility. It flourishes in a collaborative and sharing environment. DevOps in Name Only (DINO) is lurking when the organization puts constraints, gates and other &lsquo;pre-DevOps&rsquo; constructs. The early adopters feel the benefits and move fast forward. The basic questions are: will the laggards catch up, do they need to?
+Follow this talk if you think ahead of the first DevOps wave, if you focus on the really hard-to-change part, viz. business culture change to help the early and late majority improve. Will DevOps itself help these organisations?
+
+Speaker:
+
+Wouter Geurts is Solution Architect with CGI Netherlands. He is active as technical manager in the larger projects or consulting clients on the software delivery, with focus on stakeholders (determining scope and accepting the delivery) or on delivery quality.
+",""
+"","ignite","http://devopsdays.org/events/2015-amsterdam/proposals/stathy-g-touloumis__devops-and-the-doppelganger/","Stathy G Touloumis","DevOps and The Doppelganger","Abstract:
+
+A fun talk delivered as a tale describing a king, his doppelganger and the knight who helped them both.
+
+The story will make analogies to current DevOps events, maturity on views and bring some light heartedness to some of the community drama.
+
+Speaker:
+
+Stathy began his career in tech back in 1996 when he co-founded an ISP. In early 2000 he had a consulting practice which led to a software eng leadership role at Edison Schools Technology Group.
+
+During that time he heavily leveraged open source technologies and used some of the early practices which have evolved into current Agile and DevOps practices. He currently works within the Business Development team at Chef.
+
+Occasionally this involves goat herding with his fellow Cheffers but mostly involves driving product, strategy and evangelism for strategic partners and businesses.
+",""
+"","ignite","http://devopsdays.org/events/2015-amsterdam/proposals/jan-joost-bouwman__devops-show-me-the-money/","Jan-Joost Bouwman","DevOps - show me the money!","Abstract:
+
+The DevOps movement has always been about the community, full of people sharing and caring for their fellow dev and ops men and women, without any personal gain. Even the vendors trying to sell us tools are kinda nice about it.
+And this is where we have gone wrong! Some people who shall remain unnamed decided to hijack DevOps, monitize it and start a training and certification institute.
+
+WE SHOULD HAVE DONE THAT OURSELVES!
+
+And this ignite will give a brief overview of the possibilties we have as a community to squeeze out some money, that we than can put back into the community. Or invest into quality time on a beach in the South Pacific. That might work too. Either way, I think you need to be on board for this!
+
+Speaker:
+
+Jan-Joost stumbled into IT almost 20 years ago, starting on a temp job for 5 days that lasted 7 years. During those years he has been mostly on the functional/process side of things, having worked as tester, designer, information analyst, project manager, application manager, change manager and currently as process owner the ITIL change management process at ING.
+
+He is also the self appointed DevOps evangelist and community leader there, trying to help his co-workers to make the transition to DevOps and Continuous Delivery and have fun with it at the same time!
+
+In his spare time he enjoys travelling the world to watch birds, or cooking, but rarely at the same time.
+",""
+"","ignite","http://devopsdays.org/events/2015-amsterdam/proposals/alban-crequy__debugging-in-a-containerized-world/","Alban Crequy","Debugging in a containerized world","Abstract:
+
+Debugging becomes slightly more complicated when you live in a containerized world. Make debugging easier by learning how to use your tools! How to use tools like actool, nsenter, strace, gdb to debug your applications.
+
+This ignite talk will show how to use actool, nsenter, strace or gdb that make your life easier when debugging containers. It will focus on ACI containers but similar techniques can be used for other container systems.
+
+Speaker:
+
+After a more than a decade of developing on Linux, Alban has racked up experience in system and kernel development, focusing on security and networking.
+Originally working on proprietary software for Linux clusters, Alban long since switched to working on Open Source software for embedded devices and has never looked back. He has worked with such technologies as systemd, D-Bus, AppArmor and cgroups, as well as the Linux kernel itself.
+
+More recently, he has added several more areas to his resum&eacute;, including networking and cloud-based development. Alban particularly values work that allows him to collaborate with other contributors in a community.
+",""
