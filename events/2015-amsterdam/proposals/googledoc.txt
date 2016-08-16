@@ -309,20 +309,6 @@ Walter is a passionate puppet expert, certified Puppet Labs trainer and DevOps e
 
 Walter has spoken at many conferences around the world about technical topics on many subjects.
 ",""
-"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/bert-van-der-zee-roger-wouterse__predict-the-success-of-your-upcoming-releases-with-devops-analytics/","Bert van der Zee and Roger Wouterse","Predict the success of your upcoming releases with DevOps Analytics","Abstract:
-
-DevOps Analytics is a new method of analytics based on Big Data technology and Machine Learning. DevOps Analytics predicts trends and  the success of the upcoming releases before the coding of the release even starts. This gives a new insight in the validated learning idea of LEAN and new testing ideas for DevOps.
-
-One of the key elements of DevOps is continuous testing. To optimize testing, automation is essential. However, you do not know how successful the system actually is, unless it&rsquo;s based on experiences of users. The latter is needed to power the learning cycle in DevOps.
-Tangible data tells us about, performance, production, number of errors etc . Non tangible data is about  experience, feelings, surveys and all non-structured information like tweets, logfiles etc. DevOps Analytics gives us the possibility to find trends and relationships in the tangible and non tanglible data
-Our talk is about the possibilities and the implementation of DevOps Analytics to analyze data (BigData) to extract the users actual experiences on the functional and non-functional level. By using machine learning, the algorithms improve themselves every release. This results in a quick feedback loop to the DevOps team, making sure that every release is an improvement.
-
-Speaker:
-
-Bert van der Zee is an independent teacher and consultant specialized in Data Analytics, Agile,  Lean, and Quality management. He writes articles about  Innovation, Data Analytics and Agile and published a book about the innovation method Qute in 2013. He speaks to groups about innovation and the world of Big Data.
-
-Roger Wouterse is Managing Consultant for SYSQA specialized in Agile, requirements and QA. He also trains and coaches on these subjects and is part-time Agile trainer for the Nyenrode Business University.
-",""
 "","talk","http://devopsdays.org/events/2015-amsterdam/proposals/jarl-meijer__hey-be-agile-you-know-what-i-mean/","Jarl Meijer","Predict the success of your upcoming releases with DevOps Analytics","Abstract:
 
 What does it really mean to be Agile? Following an &lsquo;Agile process&rsquo; like Scrum, Kanban or SAFe is just one step. While transforming to an Agile organization we also expect people to be Agile in behavior and mindset. Without &lsquo;an Agile culture&rsquo; and &lsquo;Agile people&rsquo; fallback to traditional behavior is close by and benefits from an Agile transformation shrink rapidly. Can you explain what Personal Agility is, so that the people in your organization understand what is expected from them? After this session you can!
@@ -341,6 +327,20 @@ Speaker:
 Jarl Meijer is an experienced Agile coach-trainer-consultant. Educated in Business Computer Science and Psychology, he started his career as an entrepreneur, developing medical diagnostic tools. From the mid '90-ties he is an IT-consultant who made his mark in quality- and project/program-management.
 
 In 2008 he moved to Xebia, the leading Agile consultancy company in the Netherlands. In his assignments he helpes organizations to transform in an Agile organization to realize their goals as improved time to market, increased customer- and employee satisfaction, cost reductions, and meeting regulatory deadlines. Jarl is an enthusiastic and knowledgeable trainer on several Agile topics. He trains yearly from practitioners to management, from team practices to Agile at Scale solutions, from foundation to advanced level.
+",""
+"","talk","http://devopsdays.org/events/2015-amsterdam/proposals/bert-van-der-zee-roger-wouterse__predict-the-success-of-your-upcoming-releases-with-devops-analytics/","Bert van der Zee and Roger Wouterse","Predict the success of your upcoming releases with DevOps Analytics","Abstract:
+
+DevOps Analytics is a new method of analytics based on Big Data technology and Machine Learning. DevOps Analytics predicts trends and  the success of the upcoming releases before the coding of the release even starts. This gives a new insight in the validated learning idea of LEAN and new testing ideas for DevOps.
+
+One of the key elements of DevOps is continuous testing. To optimize testing, automation is essential. However, you do not know how successful the system actually is, unless it&rsquo;s based on experiences of users. The latter is needed to power the learning cycle in DevOps.
+Tangible data tells us about, performance, production, number of errors etc . Non tangible data is about  experience, feelings, surveys and all non-structured information like tweets, logfiles etc. DevOps Analytics gives us the possibility to find trends and relationships in the tangible and non tanglible data
+Our talk is about the possibilities and the implementation of DevOps Analytics to analyze data (BigData) to extract the users actual experiences on the functional and non-functional level. By using machine learning, the algorithms improve themselves every release. This results in a quick feedback loop to the DevOps team, making sure that every release is an improvement.
+
+Speaker:
+
+Bert van der Zee is an independent teacher and consultant specialized in Data Analytics, Agile,  Lean, and Quality management. He writes articles about  Innovation, Data Analytics and Agile and published a book about the innovation method Qute in 2013. He speaks to groups about innovation and the world of Big Data.
+
+Roger Wouterse is Managing Consultant for SYSQA specialized in Agile, requirements and QA. He also trains and coaches on these subjects and is part-time Agile trainer for the Nyenrode Business University.
 ",""
 "","talk","http://devopsdays.org/events/2015-amsterdam/proposals/patrick-van-dissel__mayfly-dockerize-your-user-stories/","Patrick van Dissel","Mayfly, Dockerize your user stories","Abstract:
 
