@@ -1,0 +1,3 @@
+# Simple redirects from one path to another
+/              		http://www.devopsdays.org		301!
+/about						http://www.devopsdays.org/about	301!
