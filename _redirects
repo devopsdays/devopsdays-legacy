@@ -1,3 +1,5 @@
-# Simple redirects from one path to another
-/              		http://www.devopsdays.org		301!
-/about						http://www.devopsdays.org/about	301!
+# Redirects to www site from legacy
+/       http://www.devopsdays.org         301!
+/about  http://www.devopsdays.org/about	  301!
+/events http://www.devopsdays.org/events  301!
+/blog   http://www.devopsdays.org/blog    301!
